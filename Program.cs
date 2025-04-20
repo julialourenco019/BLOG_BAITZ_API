@@ -145,7 +145,7 @@ app.MapGet("/health", () => "Healthy");
 // Obtendo a porta definida pelo Render
 var port = Environment.GetEnvironmentVariable("PORT") ?? "10000"; // Porta padrão caso PORT não esteja definida
 app.Urls.Add($"http://0.0.0.0:{port}");
-app.Urls.Add($"http://0.0.0.0:443");
+//app.Urls.Add($"http://0.0.0.0:443");
 
 app.Run();
 

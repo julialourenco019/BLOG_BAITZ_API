@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BAITZ_BLOG_API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+57951a46fc480743c73f4cbd9e9c169238094c9a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7514c50ffede6186ab6a1c21ee1879af9b3551b0")]
 [assembly: System.Reflection.AssemblyProductAttribute("BAITZ_BLOG_API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BAITZ_BLOG_API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

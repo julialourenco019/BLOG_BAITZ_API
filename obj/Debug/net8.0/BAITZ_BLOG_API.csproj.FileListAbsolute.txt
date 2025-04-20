@@ -433,3 +433,4 @@ C:\Users\julia\source\blog\BAITZ_BLOG_API\obj\Debug\net8.0\refint\BAITZ_BLOG_API
 C:\Users\julia\source\blog\BAITZ_BLOG_API\obj\Debug\net8.0\BAITZ_BLOG_API.pdb
 C:\Users\julia\source\blog\BAITZ_BLOG_API\obj\Debug\net8.0\BAITZ_BLOG_API.genruntimeconfig.cache
 C:\Users\julia\source\blog\BAITZ_BLOG_API\obj\Debug\net8.0\ref\BAITZ_BLOG_API.dll
+C:\Users\julia\source\blog\BAITZ_BLOG_API\obj\Debug\net8.0\BAITZ_BLOG_API.sourcelink.json

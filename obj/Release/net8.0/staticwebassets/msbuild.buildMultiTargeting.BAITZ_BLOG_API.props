@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\BAITZ_BLOG_API.props" />
+</Project>

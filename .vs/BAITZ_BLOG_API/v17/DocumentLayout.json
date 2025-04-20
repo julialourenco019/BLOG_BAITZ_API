@@ -3,8 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\julia\\source\\blog\\BAITZ_BLOG_API\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2B240E1B-7C1F-4EFF-9876-4CDFE85B613F}|BAITZ_BLOG_API.csproj|c:\\users\\julia\\source\\blog\\baitz_blog_api\\requirements.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{2B240E1B-7C1F-4EFF-9876-4CDFE85B613F}|BAITZ_BLOG_API.csproj|solutionrelative:requirements.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B240E1B-7C1F-4EFF-9876-4CDFE85B613F}|BAITZ_BLOG_API.csproj|c:\\users\\julia\\source\\blog\\baitz_blog_api\\domain\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B240E1B-7C1F-4EFF-9876-4CDFE85B613F}|BAITZ_BLOG_API.csproj|solutionrelative:domain\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B240E1B-7C1F-4EFF-9876-4CDFE85B613F}|BAITZ_BLOG_API.csproj|c:\\users\\julia\\source\\blog\\baitz_blog_api\\domain\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B240E1B-7C1F-4EFF-9876-4CDFE85B613F}|BAITZ_BLOG_API.csproj|solutionrelative:domain\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B240E1B-7C1F-4EFF-9876-4CDFE85B613F}|BAITZ_BLOG_API.csproj|c:\\users\\julia\\source\\blog\\baitz_blog_api\\context\\applicationdatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B240E1B-7C1F-4EFF-9876-4CDFE85B613F}|BAITZ_BLOG_API.csproj|solutionrelative:context\\applicationdatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B240E1B-7C1F-4EFF-9876-4CDFE85B613F}|BAITZ_BLOG_API.csproj|c:\\users\\julia\\source\\blog\\baitz_blog_api\\baitz_blog_api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2B240E1B-7C1F-4EFF-9876-4CDFE85B613F}|BAITZ_BLOG_API.csproj|solutionrelative:baitz_blog_api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2B240E1B-7C1F-4EFF-9876-4CDFE85B613F}|BAITZ_BLOG_API.csproj|c:\\users\\julia\\source\\blog\\baitz_blog_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B240E1B-7C1F-4EFF-9876-4CDFE85B613F}|BAITZ_BLOG_API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B240E1B-7C1F-4EFF-9876-4CDFE85B613F}|BAITZ_BLOG_API.csproj|c:\\users\\julia\\source\\blog\\baitz_blog_api\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B240E1B-7C1F-4EFF-9876-4CDFE85B613F}|BAITZ_BLOG_API.csproj|solutionrelative:controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B240E1B-7C1F-4EFF-9876-4CDFE85B613F}|BAITZ_BLOG_API.csproj|c:\\users\\julia\\source\\blog\\baitz_blog_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2B240E1B-7C1F-4EFF-9876-4CDFE85B613F}|BAITZ_BLOG_API.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B240E1B-7C1F-4EFF-9876-4CDFE85B613F}|BAITZ_BLOG_API.csproj|c:\\users\\julia\\source\\blog\\baitz_blog_api\\services\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B240E1B-7C1F-4EFF-9876-4CDFE85B613F}|BAITZ_BLOG_API.csproj|solutionrelative:services\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B240E1B-7C1F-4EFF-9876-4CDFE85B613F}|BAITZ_BLOG_API.csproj|c:\\users\\julia\\source\\blog\\baitz_blog_api\\services\\iclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B240E1B-7C1F-4EFF-9876-4CDFE85B613F}|BAITZ_BLOG_API.csproj|solutionrelative:services\\iclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B240E1B-7C1F-4EFF-9876-4CDFE85B613F}|BAITZ_BLOG_API.csproj|c:\\users\\julia\\source\\blog\\baitz_blog_api\\repository\\clientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B240E1B-7C1F-4EFF-9876-4CDFE85B613F}|BAITZ_BLOG_API.csproj|solutionrelative:repository\\clientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B240E1B-7C1F-4EFF-9876-4CDFE85B613F}|BAITZ_BLOG_API.csproj|c:\\users\\julia\\source\\blog\\baitz_blog_api\\repository\\iclientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B240E1B-7C1F-4EFF-9876-4CDFE85B613F}|BAITZ_BLOG_API.csproj|solutionrelative:repository\\iclientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2B240E1B-7C1F-4EFF-9876-4CDFE85B613F}|BAITZ_BLOG_API.csproj|c:\\users\\julia\\source\\blog\\baitz_blog_api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -51,56 +95,20 @@
       "RelativeMoniker": "D:0:0:{2B240E1B-7C1F-4EFF-9876-4CDFE85B613F}|BAITZ_BLOG_API.csproj|solutionrelative:services\\postservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B240E1B-7C1F-4EFF-9876-4CDFE85B613F}|BAITZ_BLOG_API.csproj|c:\\users\\julia\\source\\blog\\baitz_blog_api\\services\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B240E1B-7C1F-4EFF-9876-4CDFE85B613F}|BAITZ_BLOG_API.csproj|solutionrelative:services\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2B240E1B-7C1F-4EFF-9876-4CDFE85B613F}|BAITZ_BLOG_API.csproj|c:\\users\\julia\\source\\blog\\baitz_blog_api\\services\\ipostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B240E1B-7C1F-4EFF-9876-4CDFE85B613F}|BAITZ_BLOG_API.csproj|solutionrelative:services\\ipostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B240E1B-7C1F-4EFF-9876-4CDFE85B613F}|BAITZ_BLOG_API.csproj|c:\\users\\julia\\source\\blog\\baitz_blog_api\\services\\iclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B240E1B-7C1F-4EFF-9876-4CDFE85B613F}|BAITZ_BLOG_API.csproj|solutionrelative:services\\iclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2B240E1B-7C1F-4EFF-9876-4CDFE85B613F}|BAITZ_BLOG_API.csproj|c:\\users\\julia\\source\\blog\\baitz_blog_api\\repository\\postrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B240E1B-7C1F-4EFF-9876-4CDFE85B613F}|BAITZ_BLOG_API.csproj|solutionrelative:repository\\postrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B240E1B-7C1F-4EFF-9876-4CDFE85B613F}|BAITZ_BLOG_API.csproj|c:\\users\\julia\\source\\blog\\baitz_blog_api\\repository\\clientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B240E1B-7C1F-4EFF-9876-4CDFE85B613F}|BAITZ_BLOG_API.csproj|solutionrelative:repository\\clientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2B240E1B-7C1F-4EFF-9876-4CDFE85B613F}|BAITZ_BLOG_API.csproj|c:\\users\\julia\\source\\blog\\baitz_blog_api\\controllers\\postscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B240E1B-7C1F-4EFF-9876-4CDFE85B613F}|BAITZ_BLOG_API.csproj|solutionrelative:controllers\\postscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B240E1B-7C1F-4EFF-9876-4CDFE85B613F}|BAITZ_BLOG_API.csproj|c:\\users\\julia\\source\\blog\\baitz_blog_api\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B240E1B-7C1F-4EFF-9876-4CDFE85B613F}|BAITZ_BLOG_API.csproj|solutionrelative:controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2B240E1B-7C1F-4EFF-9876-4CDFE85B613F}|BAITZ_BLOG_API.csproj|c:\\users\\julia\\source\\blog\\baitz_blog_api\\repository\\ipostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B240E1B-7C1F-4EFF-9876-4CDFE85B613F}|BAITZ_BLOG_API.csproj|solutionrelative:repository\\ipostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B240E1B-7C1F-4EFF-9876-4CDFE85B613F}|BAITZ_BLOG_API.csproj|c:\\users\\julia\\source\\blog\\baitz_blog_api\\repository\\iclientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B240E1B-7C1F-4EFF-9876-4CDFE85B613F}|BAITZ_BLOG_API.csproj|solutionrelative:repository\\iclientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B240E1B-7C1F-4EFF-9876-4CDFE85B613F}|BAITZ_BLOG_API.csproj|c:\\users\\julia\\source\\blog\\baitz_blog_api\\context\\applicationdatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B240E1B-7C1F-4EFF-9876-4CDFE85B613F}|BAITZ_BLOG_API.csproj|solutionrelative:context\\applicationdatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B240E1B-7C1F-4EFF-9876-4CDFE85B613F}|BAITZ_BLOG_API.csproj|c:\\users\\julia\\source\\blog\\baitz_blog_api\\domain\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B240E1B-7C1F-4EFF-9876-4CDFE85B613F}|BAITZ_BLOG_API.csproj|solutionrelative:domain\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B240E1B-7C1F-4EFF-9876-4CDFE85B613F}|BAITZ_BLOG_API.csproj|c:\\users\\julia\\source\\blog\\baitz_blog_api\\domain\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B240E1B-7C1F-4EFF-9876-4CDFE85B613F}|BAITZ_BLOG_API.csproj|solutionrelative:domain\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B240E1B-7C1F-4EFF-9876-4CDFE85B613F}|BAITZ_BLOG_API.csproj|c:\\users\\julia\\source\\blog\\baitz_blog_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{2B240E1B-7C1F-4EFF-9876-4CDFE85B613F}|BAITZ_BLOG_API.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -110,7 +118,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 17,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -118,7 +126,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "requirements.txt",
+              "DocumentMoniker": "C:\\Users\\julia\\source\\blog\\BAITZ_BLOG_API\\requirements.txt",
+              "RelativeDocumentMoniker": "requirements.txt",
+              "ToolTip": "C:\\Users\\julia\\source\\blog\\BAITZ_BLOG_API\\requirements.txt",
+              "RelativeToolTip": "requirements.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-04-15T23:44:58.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BAITZ_BLOG_API.csproj",
+              "DocumentMoniker": "C:\\Users\\julia\\source\\blog\\BAITZ_BLOG_API\\BAITZ_BLOG_API.csproj",
+              "RelativeDocumentMoniker": "BAITZ_BLOG_API.csproj",
+              "ToolTip": "C:\\Users\\julia\\source\\blog\\BAITZ_BLOG_API\\BAITZ_BLOG_API.csproj",
+              "RelativeToolTip": "BAITZ_BLOG_API.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-02T15:14:42.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\julia\\source\\blog\\BAITZ_BLOG_API\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
@@ -130,19 +163,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 13,
               "Title": "TokenAuth.cs",
               "DocumentMoniker": "C:\\Users\\julia\\source\\blog\\BAITZ_BLOG_API\\Auth\\TokenAuth.cs",
               "RelativeDocumentMoniker": "Auth\\TokenAuth.cs",
               "ToolTip": "C:\\Users\\julia\\source\\blog\\BAITZ_BLOG_API\\Auth\\TokenAuth.cs",
               "RelativeToolTip": "Auth\\TokenAuth.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAwCEAAAAAAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAxwCEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-29T18:35:17.458Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 14,
               "Title": "Key.cs",
               "DocumentMoniker": "C:\\Users\\julia\\source\\blog\\BAITZ_BLOG_API\\Key.cs",
               "RelativeDocumentMoniker": "Key.cs",
@@ -154,7 +187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 15,
               "Title": "PostCreateModel.cs",
               "DocumentMoniker": "C:\\Users\\julia\\source\\blog\\BAITZ_BLOG_API\\Domain\\Models\\PostCreateModel.cs",
               "RelativeDocumentMoniker": "Domain\\Models\\PostCreateModel.cs",
@@ -166,7 +199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 16,
               "Title": "ApplicationDataContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\julia\\source\\blog\\BAITZ_BLOG_API\\Migrations\\ApplicationDataContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "Migrations\\ApplicationDataContextModelSnapshot.cs",
@@ -178,7 +211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 17,
               "Title": "20250329171024_UpdateDomainImage2.cs",
               "DocumentMoniker": "C:\\Users\\julia\\source\\blog\\BAITZ_BLOG_API\\Migrations\\20250329171024_UpdateDomainImage2.cs",
               "RelativeDocumentMoniker": "Migrations\\20250329171024_UpdateDomainImage2.cs",
@@ -190,7 +223,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 18,
               "Title": "20250328230921_UpdateClient.cs",
               "DocumentMoniker": "C:\\Users\\julia\\source\\blog\\BAITZ_BLOG_API\\Migrations\\20250328230921_UpdateClient.cs",
               "RelativeDocumentMoniker": "Migrations\\20250328230921_UpdateClient.cs",
@@ -202,7 +235,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 19,
               "Title": "20250328225342_Initial.cs",
               "DocumentMoniker": "C:\\Users\\julia\\source\\blog\\BAITZ_BLOG_API\\Migrations\\20250328225342_Initial.cs",
               "RelativeDocumentMoniker": "Migrations\\20250328225342_Initial.cs",
@@ -214,7 +247,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 20,
               "Title": "20250329165430_UpdateDomainImage.cs",
               "DocumentMoniker": "C:\\Users\\julia\\source\\blog\\BAITZ_BLOG_API\\Migrations\\20250329165430_UpdateDomainImage.cs",
               "RelativeDocumentMoniker": "Migrations\\20250329165430_UpdateDomainImage.cs",
@@ -226,7 +259,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 21,
               "Title": "ApplicationDataContextFactory.cs",
               "DocumentMoniker": "C:\\Users\\julia\\source\\blog\\BAITZ_BLOG_API\\Context\\ApplicationDataContextFactory.cs",
               "RelativeDocumentMoniker": "Context\\ApplicationDataContextFactory.cs",
@@ -238,31 +271,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 22,
               "Title": "PostService.cs",
               "DocumentMoniker": "C:\\Users\\julia\\source\\blog\\BAITZ_BLOG_API\\Services\\PostService.cs",
               "RelativeDocumentMoniker": "Services\\PostService.cs",
               "ToolTip": "C:\\Users\\julia\\source\\blog\\BAITZ_BLOG_API\\Services\\PostService.cs",
               "RelativeToolTip": "Services\\PostService.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAQAAAAhAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAIBQwAQAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-28T18:34:56.237Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 8,
               "Title": "ClientService.cs",
               "DocumentMoniker": "C:\\Users\\julia\\source\\blog\\BAITZ_BLOG_API\\Services\\ClientService.cs",
               "RelativeDocumentMoniker": "Services\\ClientService.cs",
               "ToolTip": "C:\\Users\\julia\\source\\blog\\BAITZ_BLOG_API\\Services\\ClientService.cs",
               "RelativeToolTip": "Services\\ClientService.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAgwBsAAAAVAAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwBsAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-28T18:34:34.389Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 23,
               "Title": "IPostService.cs",
               "DocumentMoniker": "C:\\Users\\julia\\source\\blog\\BAITZ_BLOG_API\\Services\\IPostService.cs",
               "RelativeDocumentMoniker": "Services\\IPostService.cs",
@@ -274,7 +307,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 9,
               "Title": "IClientService.cs",
               "DocumentMoniker": "C:\\Users\\julia\\source\\blog\\BAITZ_BLOG_API\\Services\\IClientService.cs",
               "RelativeDocumentMoniker": "Services\\IClientService.cs",
@@ -286,7 +319,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 24,
               "Title": "PostRepository.cs",
               "DocumentMoniker": "C:\\Users\\julia\\source\\blog\\BAITZ_BLOG_API\\Repository\\PostRepository.cs",
               "RelativeDocumentMoniker": "Repository\\PostRepository.cs",
@@ -298,32 +331,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 10,
               "Title": "ClientRepository.cs",
               "DocumentMoniker": "C:\\Users\\julia\\source\\blog\\BAITZ_BLOG_API\\Repository\\ClientRepository.cs",
               "RelativeDocumentMoniker": "Repository\\ClientRepository.cs",
               "ToolTip": "C:\\Users\\julia\\source\\blog\\BAITZ_BLOG_API\\Repository\\ClientRepository.cs",
               "RelativeToolTip": "Repository\\ClientRepository.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAkwCIAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-28T18:19:03.311Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\julia\\source\\blog\\BAITZ_BLOG_API\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\julia\\source\\blog\\BAITZ_BLOG_API\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAADIAAAAAAAAAAAAAADwAAAA1AAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAADwAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T00:02:12.848Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-28T00:02:12.848Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 25,
               "Title": "PostsController.cs",
               "DocumentMoniker": "C:\\Users\\julia\\source\\blog\\BAITZ_BLOG_API\\Controllers\\PostsController.cs",
               "RelativeDocumentMoniker": "Controllers\\PostsController.cs",
@@ -335,19 +367,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 6,
               "Title": "ClientController.cs",
               "DocumentMoniker": "C:\\Users\\julia\\source\\blog\\BAITZ_BLOG_API\\Controllers\\ClientController.cs",
               "RelativeDocumentMoniker": "Controllers\\ClientController.cs",
               "ToolTip": "C:\\Users\\julia\\source\\blog\\BAITZ_BLOG_API\\Controllers\\ClientController.cs",
               "RelativeToolTip": "Controllers\\ClientController.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAYwAoAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-28T17:56:12.419Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 26,
               "Title": "IPostRepository.cs",
               "DocumentMoniker": "C:\\Users\\julia\\source\\blog\\BAITZ_BLOG_API\\Repository\\IPostRepository.cs",
               "RelativeDocumentMoniker": "Repository\\IPostRepository.cs",
@@ -359,7 +391,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 11,
               "Title": "IClientRepository.cs",
               "DocumentMoniker": "C:\\Users\\julia\\source\\blog\\BAITZ_BLOG_API\\Repository\\IClientRepository.cs",
               "RelativeDocumentMoniker": "Repository\\IClientRepository.cs",
@@ -371,31 +403,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 3,
               "Title": "ApplicationDataContext.cs",
               "DocumentMoniker": "C:\\Users\\julia\\source\\blog\\BAITZ_BLOG_API\\Context\\ApplicationDataContext.cs",
               "RelativeDocumentMoniker": "Context\\ApplicationDataContext.cs",
               "ToolTip": "C:\\Users\\julia\\source\\blog\\BAITZ_BLOG_API\\Context\\ApplicationDataContext.cs",
               "RelativeToolTip": "Context\\ApplicationDataContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAHAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwA4AAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-28T00:26:28.048Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 2,
               "Title": "Post.cs",
               "DocumentMoniker": "C:\\Users\\julia\\source\\blog\\BAITZ_BLOG_API\\Domain\\Post.cs",
               "RelativeDocumentMoniker": "Domain\\Post.cs",
               "ToolTip": "C:\\Users\\julia\\source\\blog\\BAITZ_BLOG_API\\Domain\\Post.cs",
               "RelativeToolTip": "Domain\\Post.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAA/wBoAAAAAAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-28T00:01:53.563Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 1,
               "Title": "Client.cs",
               "DocumentMoniker": "C:\\Users\\julia\\source\\blog\\BAITZ_BLOG_API\\Domain\\Client.cs",
               "RelativeDocumentMoniker": "Domain\\Client.cs",
@@ -403,17 +435,18 @@
               "RelativeToolTip": "Domain\\Client.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T00:01:20.59Z"
+              "WhenOpened": "2025-03-28T00:01:20.59Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 7,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\julia\\source\\blog\\BAITZ_BLOG_API\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "C:\\Users\\julia\\source\\blog\\BAITZ_BLOG_API\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAEAAAACAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-03-28T00:00:13.144Z"
             }

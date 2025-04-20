@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BAITZ_BLOG_API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8bd2017b3d435445724ca6e8d02eb3bc6345e86d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8286ba2bdfe99bcac46ba27314d2994e2b1e2eb4")]
 [assembly: System.Reflection.AssemblyProductAttribute("BAITZ_BLOG_API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BAITZ_BLOG_API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

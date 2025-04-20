@@ -133,13 +133,13 @@ using (var scope = app.Services.CreateScope())
     db.Database.Migrate();
 }
 app.UseCors("MyPolicy");
-//app.UseHttpsRedirection();
+app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
 app.MapControllers();
 
-app.MapGet("/health", () => "Healthy");
+app.MapGet("/", () => "API funcionando!");
 
 
 // Obtendo a porta definida pelo Render

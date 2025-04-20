@@ -46,24 +46,58 @@ builder.Services.AddSwaggerGen(c =>
 });
 
 
-builder.Services.AddDbContext<ApplicationDataContext>(options =>
-    options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
+/*builder.Services.AddDbContext<ApplicationDataContext>(options =>
+    options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));*/
+builder.Services.AddDbContext<ApplicationDataContext>(options => {
+    // Verifica se está no ambiente do Render
+    var isRender = !string.IsNullOrEmpty(Environment.GetEnvironmentVariable("RENDER"));
+    
+    if (isRender) {
+        // Caminho persistente no Render
+        options.UseSqlite("Data Source=/var/lib/data/BAITZ_BLOG_DATABASE.db");
+    } else {
+        // Ambiente de desenvolvimento
+        options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection"));
+    }
+});
+
 builder.Services.AddScoped<IClientRepository, ClientRepository>();
 builder.Services.AddScoped<IPostRepository, PostRepository>();
 builder.Services.AddScoped<IClientService, ClientService>();
 builder.Services.AddScoped<IPostService, PostService>();
 
-builder.Services.AddCors(options =>
-{
+builder.Services.AddCors(options => {
     options.AddPolicy(name: "MyPolicy",
         policy =>
         {
-            policy.WithOrigins("http://localhost:4200").AllowAnyHeader().AllowAnyMethod();
+            policy.WithOrigins(
+                "http://localhost:4200",
+                "https://seu-frontend-no-render.onrender.com" // Adicione a URL do seu frontend no Render
+            )
+            .AllowAnyHeader()
+            .AllowAnyMethod();
         });
 });
-var key = Encoding.ASCII.GetBytes(BAITZ_BLOG_API.Key.Secret);
 
-builder.Services.AddAuthentication(x =>
+//var key = Encoding.ASCII.GetBytes(BAITZ_BLOG_API.Key.Secret);
+var jwtSecret = Environment.GetEnvironmentVariable("JWT_SECRET") ?? 
+                BAITZ_BLOG_API.Key.Secret;
+builder.Services.AddAuthentication(x => {
+    x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+}).AddJwtBearer(x => {
+    x.RequireHttpsMetadata = false;
+    x.SaveToken = true;
+    x.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters
+    {
+        ValidateIssuerSigningKey = true,
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(jwtSecret)), // Correção aqui
+        ValidateIssuer = false,
+        ValidateAudience = false
+    };
+});
+
+/*builder.Services.AddAuthentication(x =>
 {
     x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
     x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -75,12 +109,12 @@ builder.Services.AddAuthentication(x =>
     x.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters
     {
         ValidateIssuerSigningKey = true,
-        IssuerSigningKey = new SymmetricSecurityKey(key),
+        IssuerSigningKey = new SymmetricSecurityKey(jwtSecret),
         ValidateIssuer = false,
         ValidateAudience = false
 
     };
-});
+});*/
 
 
 
@@ -89,8 +123,14 @@ var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
+     app.UseHsts();
     app.UseSwagger();
     app.UseSwaggerUI();
+}
+using (var scope = app.Services.CreateScope())
+{
+    var db = scope.ServiceProvider.GetRequiredService<ApplicationDataContext>();
+    db.Database.Migrate();
 }
 app.UseCors("MyPolicy");
 app.UseHttpsRedirection();
@@ -99,4 +139,7 @@ app.UseAuthorization();
 
 app.MapControllers();
 
+app.MapGet("/health", () => "Healthy");
+
 app.Run();
+

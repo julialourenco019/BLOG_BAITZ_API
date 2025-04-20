@@ -6,23 +6,26 @@ using System.Security.Claims;
 using System.Text;
 namespace BAITZ_BLOG_API.Auth
 {
-    
+
     public class TokenAuth
     {
         public static object GenerateToken(Client client)
         {
-            var key = Encoding.ASCII.GetBytes(Key.Secret);
+            var jwtSecret = Environment.GetEnvironmentVariable("JWT_SECRET") ?? Key.Secret;
+            var key = Encoding.ASCII.GetBytes(jwtSecret);
+
             var tokenConfig = new SecurityTokenDescriptor
             {
                 Subject = new System.Security.Claims.ClaimsIdentity(new Claim[]
                 {
-                    new Claim("ClientId", client.Id.ToString()),
+            new Claim("ClientId", client.Id.ToString()),
                 }),
                 Expires = DateTime.UtcNow.AddHours(3),
                 Issuer = "BAITZ_BLOG_API",
                 Audience = "BAITZ_BLOG_API_Domain",
-                SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256),
+                SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256), // Use key aqui
             };
+
 
             var tokenHandler = new JwtSecurityTokenHandler();
             var token = tokenHandler.CreateToken(tokenConfig);

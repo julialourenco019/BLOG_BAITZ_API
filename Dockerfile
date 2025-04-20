@@ -16,7 +16,7 @@ COPY --from=build /app .
 
 # Criar diretório para o SQLite
 RUN mkdir -p /var/lib/data
-ENV ConnectionStrings__DefaultConnection="Data Source=/var/lib/data/BAITZ_BLOG_DATABASE"
+ENV ConnectionStrings__DefaultConnection="Data Source=/var/lib/data/BAITZ_BLOG_DATABASE.db"
 
 EXPOSE 8080
 ENTRYPOINT ["dotnet", "BAITZ_BLOG_API.dll"]

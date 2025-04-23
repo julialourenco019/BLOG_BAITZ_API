@@ -143,10 +143,10 @@ app.UseAuthorization();
 
 app.MapControllers();
 
-app.MapGet();
+app.MapGet("/", () => "API funcionando!");
 
 
-// Obtendo a porta definida pelo Render "/", () => "API funcionando!"
+// Obtendo a porta definida pelo Render 
 var port = Environment.GetEnvironmentVariable("PORT") ?? "10000"; // Porta padrão caso PORT não esteja definida
 app.Urls.Add($"http://0.0.0.0:{port}");
 //app.Urls.Add($"http://0.0.0.0:443");

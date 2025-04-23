@@ -125,7 +125,11 @@ if (app.Environment.IsDevelopment())
 {
      app.UseHsts();
     app.UseSwagger();
-    app.UseSwaggerUI();
+    app.UseSwaggerUI( c => 
+      {
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "Minha API V1");
+        c.RoutePrefix = string.Empty;
+      });
 }
 using (var scope = app.Services.CreateScope())
 {
@@ -139,10 +143,10 @@ app.UseAuthorization();
 
 app.MapControllers();
 
-app.MapGet("/", () => "API funcionando!");
+app.MapGet();
 
 
-// Obtendo a porta definida pelo Render
+// Obtendo a porta definida pelo Render "/", () => "API funcionando!"
 var port = Environment.GetEnvironmentVariable("PORT") ?? "10000"; // Porta padrão caso PORT não esteja definida
 app.Urls.Add($"http://0.0.0.0:{port}");
 //app.Urls.Add($"http://0.0.0.0:443");
